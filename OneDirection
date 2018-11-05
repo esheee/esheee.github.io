@@ -1,3 +1,7 @@
+<html>
+  <head>
+
+<body>
 <h5 style="font-family:Courier;text-align="center";font-size:20pt;
 color:#00FF00;>
 Simple Login Page
@@ -22,3 +26,6 @@ function check(form)/*function to check userid & password*/
   }
 }
 </script>
+
+</body>
+</html>
