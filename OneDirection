@@ -16,7 +16,7 @@ Password<input type="password" name="pswrd"/>
 function check(form)/*function to check userid & password*/
 {
  /*the following code checkes whether the entered userid and password are matching*/
- if(form.userid.value == "maroon5" && form.pswrd.value == "totalfan")
+ if(form.userid.value == "username" && form.pswrd.value == "password")
   {
     window.open('https://aryasasik.github.io/AryaSasiK.github.io/index2.html')/*opens the target page while Id & password matches*/
   }
