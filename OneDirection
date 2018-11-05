@@ -1,9 +1,7 @@
-<html>
-<body>
-<h1 style="font-family:Comic Sans Ms;text-align=center;font-size:20pt;
+<h5 style="font-family:Courier;text-align="center";font-size:20pt;
 color:#00FF00;>
 Simple Login Page
-</h1>
+</h5>
 <form name="login">
 Username<input type="text" name="userid"/>
 Password<input type="password" name="pswrd"/>
@@ -11,17 +9,16 @@ Password<input type="password" name="pswrd"/>
 <input type="reset" value="Cancel"/>
 </form>
 <script language="javascript">
-function check(form)
+function check(form)/*function to check userid & password*/
 {
- if(form.userid.value === "myuserid" && form.pswrd.value === "mypswrd")
+ /*the following code checkes whether the entered userid and password are matching*/
+ if(form.userid.value == "maroon5" && form.pswrd.value == "totalfan")
   {
-    window.open('https://esheee.github.io')
+    window.open('https://aryasasik.github.io/AryaSasiK.github.io/index2.html')/*opens the target page while Id & password matches*/
   }
  else
  {
-   alert("Error Password or Username")
+   alert("Error Password or Username")/*displays error message*/
   }
 }
 </script>
-</body>
-</html>
