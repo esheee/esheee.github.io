@@ -21,7 +21,23 @@
       <li> Moments</li>
     </ul>
    <img src= "https://vignette.wikia.nocookie.net/onedirectioninfection/images/d/d3/One-Direction-What-Makes-You-Beautiful.jpg/revision/latest?cb=20120513123735">
-   
+   <p>Select your favorite album:</p>
+<form action="/action_page.php">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Four">Four<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Made In The AM">Made in the AM<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br><br>
+  
+  Your favorite album is: <input type="text" id="result">
+  <input type="submit" value="Submit form">
+</form>
+
+<script>
+function myFunction(browser) {
+    document.getElementById("result").value = browser;
+}
+</script>
 </body>
 </html>
 
