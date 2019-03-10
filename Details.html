@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
+  
+<h1> Nutrition Calculator</h1>
+<p> Good and balanced nutrition allows for a healthy lifestyle. Proper nutrition checks weight, height, reduces chances for certain diseases and promotes your overall health. However, we don't always know what to consume based on a variety of factors. This website calculates how much protein, carbohydrates, fat and sugars are needed based on your weight, height, sex and age. This information then creates lists of possible meals you can make at home or buy in order to stay on top of your nutrition no matter how old you are. </p>
+
+<h2>CALCULATOR</h2>
+  
 <p>Click the button to display a dialog box which will ask for your favorite drink.</p>
 
 <button onclick="myFunction()">Try it</button>
@@ -9,19 +15,16 @@
 <script>
 function myFunction() {
   var text;
-  var favDrink = prompt("What's your favorite cocktail drink?", "Daiquiri");
+  var favDrink = prompt("What's your biological sex?", "F or M");
   switch(favDrink) {
-    case "Martini":
+    case "F":
       text = "Excellent choice. Martini is good for your soul.";
       break;
-    case "Daiquiri":
+    case "M":
       text = "Daiquiri is my favorite too!";
       break;
-    case "Cosmopolitan":
-      text = "Really? Are you sure the Cosmopolitan is your favorite?";
-      break;
     default:
-      text = "I have never heard of that one..";
+      text = "Try writing "F or M" ";
   }
   document.getElementById("demo").innerHTML = text;
 }
@@ -31,30 +34,6 @@ function myFunction() {
 
 </body>
 </html>
-
-<h1> Nutrition Calculator:)</h1>
-   <p> Good and balanced nutrition allows for a healthy lifestyle. Proper nutrition checks weight, height, reduces chances for certain diseases and promotes your overall health. However, we don't always know what to consume based on a variety of factors. This website calculates how much protein, carbohydrates, fat and sugars are needed based on your weight, height, sex and age. This information then creates lists of possible meals you can make at home or buy in order to stay on top of your nutrition no matter how old you are. </p>
-
-<h2>CALCULATOR</h2>
-<p>Click the button to display a dialog box which will ask for your biological sex.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var text;
-  var gen = prompt("What's your biological sex?", "M or F");
-  switch(gen) {
-    case "M":
-      text = "Excellent choice.";
-      break;
-    case "F":
-      text = "Daiquiri is my favorite too!";
-      break;
-    default:
-      text = "Try writing "M" or "F"";
 
   }
   document.getElementById("demo").innerHTML = text;
