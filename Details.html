@@ -1,31 +1,34 @@
 <h1> Nutrition Calculator</h1>
    <p> Good and balanced nutrition allows for a healthy lifestyle. Proper nutrition checks weight, height, reduces chances for certain diseases and promotes your overall health. However, we don't always know what to consume based on a variety of factors. This website calculates how much protein, carbohydrates, fat and sugars are needed based on your weight, height, sex and age. This information then creates lists of possible meals you can make at home or buy in order to stay on top of your nutrition no matter how old you are. </p>
 
+
+   
 <h2>CALCULATOR</h2>
 
-<p>Please input age:</p>
+<p>Click the button to display a dialog box which will ask for your biological sex. (Answer with F or M) </p>
 
-<input id="numb">
-
-<button type="button" onclick="myFunction()">Submit</button>
+<button onclick="myFunction()">Click here</button>
 
 <p id="demo"></p>
 
 <script>
 function myFunction() {
-  var x, text;
+  var text;
+  var gen = prompt("What's your biological sex?", "F or M");
+  switch(gen) {
+    case "F":
+      text = "veg";
+      break;
+    case "M":
+      text = "MEat";
+      break;
+    default:
+      text = "try to capitalize! "M" or "F" ";
+  }
+  document.getElementById("demo").innerHTML = text;
 
-  // Get the value of the input field with id="numb"
-  x = document.getElementById("numb").value;
 
-  // If x is Not a Number or less than one or greater than 10
-  if (isNaN(x) || x > 1 || x < 10) {
-    text = "EAT VEG";
-  } 
-  if (isNaN(x) || x > 10 || x < 18) {
-    text = "EAT meat";
-   if (isNaN(x) || x > 18 || x < 60) {
-    text = "EAT poop";
+
   }
   document.getElementById("demo").innerHTML = text;
 }
