@@ -18,16 +18,19 @@ function myFunction() {
 </body>
 </html>
 
-<p>Select your favorite album:</p>
+<p>Answer the following questions by selecting one option:</p>
+<p> Are you a biological male or female? </p>
 <form action="/Thankyoupage.html">
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Up All Night">Up All Night<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Take Me Home">Take Me Home<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Four">Four<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Made In The AM">Made in the AM<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Midnight Memories">Midnight Memories<br><br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Female">Female<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Male">Male<br>
   
-  Your favorite album is: <input type="text" id="result">
-  <input type="submit" value="Submit form">
+  <p> How old are you? </p>
+<form action="/Thankyoupage.html">
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="<14"><14<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value="<18"><18<br>
+  <input type="radio" name="browser" onclick="myFunction(this.value)" value=">18"><18<br>
+
+  
 </form>
 
 <script>
