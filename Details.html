@@ -13,21 +13,18 @@
 <script>
 function myFunction() {
   var text;
-  var favDrink = prompt("What's your favorite cocktail drink?", "Daiquiri");
-  switch(favDrink) {
-    case "Martini":
-      text = "Excellent choice. Martini is good for your soul.";
+  var gen = prompt("What's your biological sex?", "M or F");
+  switch(gen) {
+    case "M":
+      text = "Excellent choice. ";
       break;
-    case "Daiquiri":
+    case "F":
       text = "Daiquiri is my favorite too!";
       break;
-    case "Cosmopolitan":
-      text = "Really? Are you sure the Cosmopolitan is your favorite?";
-      break;
     default:
-      text = "I have never heard of that one..";
+      text = "Try writing "M" or "F"";
+ document.getElementById("demo").innerHTML = text;
   }
-  document.getElementById("demo").innerHTML = text;
  
 }
 
