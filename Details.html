@@ -1,41 +1,36 @@
 <h1> Nutrition Calculator</h1>
    <p> Good and balanced nutrition allows for a healthy lifestyle. Proper nutrition checks weight, height, reduces chances for certain diseases and promotes your overall health. However, we don't always know what to consume based on a variety of factors. This website calculates how much protein, carbohydrates, fat and sugars are needed based on your weight, height, sex and age. This information then creates lists of possible meals you can make at home or buy in order to stay on top of your nutrition no matter how old you are. </p>
 
-<p>Enter names in the fields, then click "Submit" to submit the form:</p>
+<h2>CALCULATOR</h2>
 
-<form id="frm1" >
-  Age: <input type="text" age="fname"><br>
-  Sex: <input type="text" sex="lname"><br><br>
-  <input type="button" onclick="myFunction()" value="Submit">
-</form>
+<p>Please input age:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
 
 <script>
 function myFunction() {
-  document.getElementById("frm1").submit();
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x > 1 || x < 10) {
+    text = "EAT VEG";
+  } 
+  if (isNaN(x) || x > 10 || x < 18) {
+    text = "EAT meat";
+   if (isNaN(x) || x > 18 || x < 60) {
+    text = "EAT poop";
+  }
+  document.getElementById("demo").innerHTML = text;
 }
-</script>
 
-</body>
-</html>
 
-<p>Answer the following questions by selecting one option:</p>
-<p> Are you a biological male or female? </p>
-<form action="/Thankyoupage.html">
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Female">Female<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="Male">Male<br>
-  
-  <p> How old are you? </p>
-<form action="/Thankyoupage.html">
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="<14"><14<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value="<18"><18<br>
-  <input type="radio" name="browser" onclick="myFunction(this.value)" value=">18">>18<br>
-
-  
-</form>
-
-<script>
-function myFunction(browser) {
-    document.getElementById("result").value = browser;
 }
 </script>
 </body>
