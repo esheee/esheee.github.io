@@ -6,7 +6,9 @@
 
 <h2>CALCULATOR</h2>
   
-<p>Click the button to display a dialog box which will ask for your favorite drink.</p>
+<!DOCTYPE html>
+<html>
+<p>Click the button to display a dialog box which will ask for your gender.</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -15,16 +17,16 @@
 <script>
 function myFunction() {
   var text;
-  var favDrink = prompt("What's your biological sex?", "F or M");
+  var favDrink = prompt("What's your favorite gender?", "M or F");
   switch(favDrink) {
-    case "F":
+    case "M":
       text = "Excellent choice. Martini is good for your soul.";
       break;
-    case "M":
+    case "F":
       text = "Daiquiri is my favorite too!";
       break;
     default:
-      text = "Try writing "F or M" ";
+      text = "Try M or F";
   }
   document.getElementById("demo").innerHTML = text;
 }
@@ -34,9 +36,5 @@ function myFunction() {
 
 </body>
 </html>
-
-  }
-  document.getElementById("demo").innerHTML = text;
-}
 
 
