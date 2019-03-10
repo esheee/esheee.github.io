@@ -4,7 +4,7 @@
 
    
 <h2>CALCULATOR</h2>
-<p>Click the button to display a dialog box which will ask for your biological sex (answer with "F" or "M").</p>
+<p>Click the button to display a dialog box which will ask for your favorite drink.</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -13,18 +13,22 @@
 <script>
 function myFunction() {
   var text;
-  var favDrink = prompt("What's your biological sex?", "M or F");
+  var favDrink = prompt("What's your favorite cocktail drink?", "Daiquiri");
   switch(favDrink) {
-    case "F":
-      text = "Excellent choice";
+    case "Martini":
+      text = "Excellent choice. Martini is good for your soul.";
       break;
-    case "M":
-      text = "Yay!";
+    case "Daiquiri":
+      text = "Daiquiri is my favorite too!";
+      break;
+    case "Cosmopolitan":
+      text = "Really? Are you sure the Cosmopolitan is your favorite?";
       break;
     default:
       text = "I have never heard of that one..";
   }
   document.getElementById("demo").innerHTML = text;
+ 
 }
 
 
