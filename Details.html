@@ -4,7 +4,7 @@
 
    
 <h2>CALCULATOR</h2>
-<p>Click the button to display a dialog box which will ask for your biological sex (answer with "F" or "M".</p>
+<p>Click the button to display a dialog box which will ask for your biological sex (answer with "F" or "M").</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -26,29 +26,6 @@ function myFunction() {
   }
   document.getElementById("demo").innerHTML = text;
 }
-</script>
-
-<p>Click the button to display a dialog box which will ask for your biological sex. (Answer with F or M) </p>
-
-<button onclick="myFunction()">Try it</button>
-
-<p id="demo"></p>
-
-<script>
-function myFunction() {
-  var text;
-  var gen = prompt("What's your biological sex?", "F or M");
-  switch(gen) {
-    case "F":
-      text = "veg";
-      break;
-    case "M":
-      text = "MEat";
-      break;
-    default:
-      text = "try to capitalize! "M" or "F" ";
-  }
-  document.getElementById("demo").innerHTML = text;
 
 
 
