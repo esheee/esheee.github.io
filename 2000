@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html,
+<head>
+<style>
+div {
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
+
+  <h1>Your Meal Plan</h1>
+  <p> Information obtained from freedieting.com</p>
+  
+
+
+<div>Breakfast plan: 2 eggs cooked anyway, 1 slice of bread, small glass of juice. </div>
+
+<div> Lunch: Sandwhich whole wheat bread (any meat), carrot and celery sticks.</div>
+
+<div> Afternoon Snack: small snack bar</div>
+
+<div>Dinner: grilled (4 ounces) salmon, small baked potato, steamed broccoli and icecream.</div>
+
+  <p> To find more information or more meals visit freedieting.com</p>
+</body>
+</html>
+
