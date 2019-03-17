@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
+
+  <h1>Your Meal Plan</h1>
+  <p> Information obtained from freedieting.com</p>
+
+<div>Breakfast plan: Cheesy Scrambled Eggs and granola.</div>
+
+<div> Lunch: Spinach and Turkey wrap, yogurt and mango </div>
+
+<div> Afternoon Snack: Small Protein Bar OR greek yoghurt</div>
+
+<div>Dinner: Fish or tuna burger with a side of popcorn </div>
+
+  <p> To find more information or more meals visit freedieting.com</p>
+</body>
+</html>
+
