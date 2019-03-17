@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
+
+  <h1>Your Meal Plan</h1>
+  <p> Information obtained from freedieting.com</p>
+
+<div>Breakfast plan: Fried egg sandwich, bacon, nonfat yogurt. OR Cranberry- banana oatmeal</div>
+
+<div> Lunch: Tuna salad, peanut butter and carrots OR carrot and raisin sandwich</div>
+
+<div> Afternoon Snack: Turkey salad OR granola</div>
+
+<div>Dinner: Greek Spaghetti, Cottage cheese and peaches OR cumin stir fried beef</div>
+
+  <p> To find more information or more meals visit freedieting.com</p>
+</body>
+</html>
+
