@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
+
+  <h1>Your Meal Plan</h1>
+  <p> Information obtained from freedieting.com</p>
+
+<div>Breakfast plan: "Reeses" Chocolate and Peanut Butter Oatmeal, pecans OR oatmeal pancakes, granola</div>
+
+<div> Lunch: Quick Salsa Tuna Wrap, Peanut butter and carrots OR ham and lettuce sandwhich with red bell pepper hummus</div>
+
+<div> Afternoon Snack: Peanut Butter Protein Yogurt</div>
+
+<div>Dinner: Ground beef classic burger OR Cheesy Spinach Chicken</div>
+
+  <p> To find more information or more meals visit freedieting.com</p>
+</body>
+</html>
+
