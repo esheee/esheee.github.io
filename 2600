@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: white;
+  width: 300px;
+  border: 10px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+</head>
+<body>
+
+  <h1>Your Meal Plan</h1>
+  <p> Information obtained from freedieting.com</p>
+
+<div>Breakfast plan: Post Workout Peanut Butter Blast, 2 strips of bacon.</div>
+
+<div> Lunch: Caprese sandwich, peanut butter and celery, and almonds</div>
+
+<div> Afternoon Snack: salsa tuna wrap</div>
+
+<div>Dinner: quinoa patties over spinach, cottage cheese and raisins</div>
+
+  <p> To find more information or more meals visit freedieting.com</p>
+</body>
+</html>
+
