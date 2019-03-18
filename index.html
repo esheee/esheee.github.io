@@ -26,6 +26,54 @@ OR high-fiber cereal, 1/2 cup of fat-free milk, sliced banana.</div>
 <div>Dinner: 1 cup of steamed broccoli, lemon couscous, fish with olives and capers OR 3/4 cup brown rice, shrimp and veggie kebabs</div>
 
   <p> To find more information or more meals visit freedieting.com</p>
+  
+  <p>Click the button to display a dialog box which will ask for your selected calories based on the chart above.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var text;
+  var favDrink = prompt("Enter your calories");
+  switch(favDrink) {
+    case "1600":
+ window.open("https://esheee.github.io/index.html");
+      break;
+    case "1800":
+      window.open("https://esheee.github.io/enter.html");
+      break;
+    case "1800":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "2000":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "2200":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "2400":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "2600":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "2800":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "3000":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    case "3200":
+  window.open("https://esheee.github.io/Details.html");
+      break;
+    default:
+      text = "Try again, verify your input!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
 </body>
 </html>
 
