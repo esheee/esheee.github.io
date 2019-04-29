@@ -148,7 +148,8 @@ tr:nth-child(even) {
   </tr>
 </table>
 
-  <p>Click the button to display a dialog box which will ask for your selected calories based on the chart above.</p>
+
+<p>Click the button to display a dialog box which will ask for your level of activeness.</p>
 
 <button onclick="myFunction()">Try it</button>
 
@@ -157,42 +158,30 @@ tr:nth-child(even) {
 <script>
 function myFunction() {
   var text;
-  var favDrink = prompt("Enter your calories");
+  var favDrink = prompt("What's your level of activeness?", "Sedentary, Moderately Active, or Active");
   switch(favDrink) {
-    case "1600":
- window.open("https://esheee.github.io/index.html");
+    case "Sedentary":
+  window.open("https://esheee.github.io/sedf.html");
       break;
-    case "1800":
-      window.open("https://esheee.github.io/1800.html");
+    case "Moderately Active":
+      window.open("https://esheee.github.io/modf.html");
       break;
-    case "2000":
-  window.open("https://esheee.github.io/2000.html");
-      break;
-    case "2200":
-  window.open("https://esheee.github.io/2200.html");
-      break;
-    case "2400":
-  window.open("https://esheee.github.io/2400.html");
-      break;
-    case "2600":
-  window.open("https://esheee.github.io/2600.html");
-      break;
-    case "2800":
-  window.open("https://esheee.github.io/2800.html");
-      break;
-    case "3000":
-  window.open("https://esheee.github.io/3000.html");
-      break;
-    case "3200":
-  window.open("https://esheee.github.io/3200.html");
+      case "Active":
+  window.open("https://esheee.github.io/actf.html");
       break;
     default:
-      text = "Try again, verify your input!";
+      text = "Try sedentary, moderately active or active";
   }
   document.getElementById("demo").innerHTML = text;
 }
 </script>
+ 
 
+
+<p id="demo"></p>
+
+<script>
 </body>
 </html>
+
 
